@@ -16,8 +16,41 @@
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Industrial Shields AR 38+</a>
+        </div>
+      </div>
+    </nav>
 
-    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <h1>Distance meter <small>max: 200cm</small></h1>
+          <div class="progress">
+            <div id="distance-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="200" style="width: 100%;">
+              0cm
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Output</h2>
+            </div>
+            <div class="panel-body">
+              <pre id="sensor-log" class="pre-scrollable"></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
     <!-- /.container -->
 
     <script src="/jquery/dist/jquery.min.js"></script>
