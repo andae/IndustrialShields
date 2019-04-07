@@ -1,0 +1,28 @@
+{
+  "name": "IndustrialShields",
+  "description": "A simple web server to receive data and relay controller from IndustrialShield via TCP Socker",
+  "main": "index.js",
+  "authors": [
+    "Julianda <biwabits@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "IndustrialShields",
+    "nodejs",
+    "tcp",
+    "socket"
+  ],
+  "homepage": "https://github.com/biwabits/IndustrialShields/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

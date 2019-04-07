@@ -1,0 +1,38 @@
+{
+  "name": "IndustrialShields",
+  "version": "1.0.0",
+  "description": "A simple web server to receive data and relay controller from IndustrialShields via TCP Socket",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "~6.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biwabits/IndustrialShields.git"
+  },
+  "keywords": [
+    "arduino",
+    "nodejs",
+    "tcp",
+    "socket"
+  ],
+  "author": "Julianda <biwabits@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biwabits/IndustrialShields/issues"
+  },
+  "homepage": "https://github.com/biwabits/IndustrialShields#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "debug": "^2.2.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
