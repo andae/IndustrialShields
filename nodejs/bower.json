@@ -10,7 +10,8 @@
     "IndustrialShields",
     "nodejs",
     "tcp",
-    "socket"
+    "socket",
+    "arduino"
   ],
   "homepage": "https://github.com/biwabits/IndustrialShields/",
   "private": true,
