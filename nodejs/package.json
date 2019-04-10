@@ -20,7 +20,8 @@
     "arduino",
     "nodejs",
     "tcp",
-    "socket"
+    "socket",
+    "IndustrialShield"
   ],
   "author": "Julianda <biwabits@gmail.com>",
   "license": "MIT",
