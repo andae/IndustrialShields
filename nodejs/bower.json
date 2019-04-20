@@ -11,7 +11,8 @@
     "nodejs",
     "tcp",
     "socket",
-    "arduino"
+    "arduino",
+    "express"
   ],
   "homepage": "https://github.com/biwabits/IndustrialShields/",
   "private": true,
