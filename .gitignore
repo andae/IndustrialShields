@@ -15,6 +15,7 @@
 .settings/
 *.sublime-workspace
 *.gitkraken
+*.atom
 
 # IDE - VSCode
 .vscode/*
