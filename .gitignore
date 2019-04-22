@@ -13,7 +13,6 @@
 .c9/
 *.launch
 .settings/
-*.gitkraken
 *.atom
 
 # IDE - VSCode
