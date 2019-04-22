@@ -13,7 +13,6 @@
 .c9/
 *.launch
 .settings/
-*.sublime-workspace
 *.gitkraken
 *.atom
 
