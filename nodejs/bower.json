@@ -1,6 +1,6 @@
 {
   "name": "IndustrialShields",
-  "description": "A simple web server to receive data and relay controller from IndustrialShield via TCP Socker",
+  "description": "A simple web server to receive data and relay controller from IndustrialShield via TCP Socket",
   "main": "index.js",
   "authors": [
     "Julianda <biwabits@gmail.com>"
